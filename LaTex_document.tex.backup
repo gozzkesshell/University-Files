@@ -13,16 +13,6 @@
 \else
 \usepackage[pdftex]{graphicx}
 \fi
-
-\pagestyle{fancy}
-\fancyhead[RE]{}
-\fancyhead[RO]{\bf Lorem ipsum dolor sit amet }
-\fancyhead[L]{}
-\fancyhead[C]{}
-\fancyfoot[R]{}
-\fancyfoot[LE,RO]{\thepage}
-\fancyfoot[C]{}
-
 %opening
 \title{Образцовый документ }
 \author{Gleb Naymitenko}
@@ -73,7 +63,7 @@ Solve the equation: $\log_{2}^{2}x - \log_{\frac{1}{2}}x^4 = 21 $
 
 \section{PICTURE}
 
-%\includegraphics{}
+\includegraphics{}
 
 
 \end{document}
